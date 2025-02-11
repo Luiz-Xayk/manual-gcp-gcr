@@ -70,11 +70,8 @@ docker push us.gcr.io/key-exemplochave-111222333/meu-projeto-gcr
 ---
 
 ## Observações
-✔ O **Container Registry** da GCP pode ser substituído pelo **Artifact Registry**, pois o primeiro está sendo gradualmente descontinuado. Para usar o **Artifact Registry**, basta modificar a URL para:
+✔ O **Container Registry** pode ser substituído pelo **Artifact Registry**, pois o primeiro está sendo descontinuado. Para usar o **Artifact Registry**, basta modificar a URL para:
    ```sh
    docker tag <ID_DA_IMAGEM> us-docker.pkg.dev/<ID_DO_PROJETO>/meu-repositorio-gcr/meu-projeto-gcr
    docker push us-docker.pkg.dev/<ID_DO_PROJETO>/meu-repositorio-gcr/meu-projeto-gcr
-   ```  
-✔ O **Cloud Run** pode ser configurado para **permitir acesso público** ou **restrito** via autenticação IAM.   
----
-
+   ```
