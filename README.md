@@ -1,5 +1,5 @@
 # Subir de forma manual GCR na GCP
-Explicação de como subir um GCR de forma manual
+Explicação de como subir GCR de forma manual
 
 # Passo a Passo: Migração para o Cloud Run (GCP)
 
